@@ -1,0 +1,885 @@
+.wrapper {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#masthead {
+    background-color: #ecc275;
+}
+
+#masthead .site-branding {
+    background-color: #000;
+    overflow: hidden;
+
+}
+
+#masthead .site-logo {
+    margin: 10px auto;
+    text-align: center;
+}
+
+#masthead .header-wrapper .searchform #search_submit {
+    display: none;
+}
+
+#searchform {
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.searchform {
+    overflow: hidden;
+    width: 100%;
+    max-width: 535px;
+    box-sizing: border-box;
+    margin: 15px auto;
+}
+
+#search::-webkit-input-placeholder {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#search::-moz-placeholder {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#search:-ms-input-placeholder {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#search:-moz-placeholder {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#search {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    height: 32px;
+    line-height: 32px;
+    background-color: #ffffff;
+    float: left;
+    width: 88%;
+    -webkit-appearance: none;
+    border: 0;
+    border-radius: 0;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#masthead .searchBtn {
+    width: 10%;
+    height: 32px;
+    -webkit-appearance: none;
+    border: 0;
+    border-radius: 0;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #ecc275;
+    padding: 0;
+    margin: 0;
+}
+
+#masthead .searchBtn .fa {
+    line-height: 32px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+#masthead ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 10px auto;
+    font-size: 0;
+    padding: 0;
+
+}
+
+#masthead ul li {
+    float: none;
+    display: block;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0 5px;
+}
+
+#masthead ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#masthead ul li a:hover {
+    color: #ecc275;
+}
+
+#masthead ul li.joinas {
+    display: block;
+    margin: 15px auto;
+    padding: 6px 0;
+    width: 145px;
+    border-radius: 3px;
+    background-color: #666699;
+}
+
+.main-navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-navigation.toggled {
+    background-color: #ecc275;
+
+}
+
+#masthead .main-navigation.toggled ul li a:hover {
+    color: #000;
+}
+
+.main-navigation button {
+    background-color: #ecc275;
+    border: 0;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.main-navigation button .fa {
+    color: #fff;
+    font-size: 14px;
+}
+
+#hero {
+    overflow: hidden;
+    background-image: url("../img/herobg.jpg");
+    background-size: cover;
+    background-position: 65% center;
+    background-repeat: no-repeat;
+}
+
+#hero .descr {
+    text-shadow: 0 -1px 2px #161729;
+    color: #ffffff;
+    font-family: 'Halant', serif;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 550px;
+    line-height: 28px;
+}
+
+.bottom-grid {
+    background-color: rgba(22, 23, 41, 0.6);
+    padding: 35px 0 30px;
+}
+
+.bottom-grid #search {
+    width: 68%;
+    max-width: 478px;
+    float: left;
+}
+
+.bottom-grid #search_submit {
+    border: 0;
+    width: 30%;
+    max-width: 192px;
+    padding: 10px 5px;
+    border-radius: 3px;
+    background-color: #ecc275;
+    color: #fff;
+    float: right;
+}
+
+.bottom-grid #search_submit:hover {
+    background-color: #ffa800;
+}
+
+#hero .bottom-grid .searchBtn {
+    display: none;
+}
+
+#trending {
+    padding-bottom: 50px;
+}
+
+#trending .section-title h2, #psychics .section-title h2, #stories .section-title h2 {
+    margin: 50px auto 20px;
+    color: #333333;
+    font-family: 'Halant', serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#trending .section-title p, #psychics .section-title p, #stories .section-title p {
+    color: #666666;
+    font-family: 'Halant', serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+}
+
+#trending .section-posts {
+    overflow: hidden;
+}
+
+.trending-posts {
+    overflow: hidden;
+    width: 285px;
+    height: 290px;
+    background-color: #ecc275;
+    margin: 20px auto;
+}
+
+/*.trending-posts:first-of-type{*/
+/*margin-left: 0;*/
+/*}*/
+/*.trending-posts:last-of-type{*/
+/*margin-right: 0;*/
+/*}*/
+
+.trending-posts .article-title {
+    color: #333333;
+    font-family: 'Halant', serif;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.trending-posts .image-wrapper {
+    width: 285px;
+    height: 237px;
+    overflow: hidden;
+}
+
+.trending-posts .image-wrapper img,
+#psychics .featured-posts .img-nav .image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    min-width: 100%;
+}
+
+#psychics {
+    overflow: hidden;
+    background-color: #f2f2f5;
+}
+
+#psychics .featured-posts {
+    width: 225px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: rgba(102, 102, 153, 0.7);
+}
+
+#psychics .featured-posts h3 {
+    margin: 20px auto;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Halant', serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#psychics .featured-posts .img-nav {
+    overflow: hidden;
+    position: relative;
+    height: 142px;
+}
+
+#psychics .featured-posts .img-nav .image-wrapper {
+    overflow: hidden;
+    width: 100%;
+    height: 142px;
+}
+
+#psychics .featured-posts .img-nav ul {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+#psychics .featured-posts .img-nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 50%;
+    padding: 3px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#psychics .featured-posts .img-nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+}
+
+#psychics .featured-posts .img-nav ul li a .fa {
+    display: inline-block;
+    margin: 0 10px;
+    color: #565771;
+}
+
+#psychics .featured-posts .img-nav ul li a .fa-comments {
+    font-size: 20px;
+}
+
+#psychics .featured-posts .img-nav ul li a .fa-phone {
+    padding: 2px 4px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: #565771;
+    border-radius: 50px;
+
+}
+
+#psychics .featured-posts .img-nav ul li:last-of-type {
+    border-left: 1px solid;
+    border-color: #737373;
+}
+
+#psychics .featured-posts .img-nav ul li a:hover {
+    color: #ffffff;
+}
+
+#psychics .featured-posts .img-nav ul li a:hover .fa {
+    color: #a7abef;
+}
+
+#psychics .featured-posts .img-nav ul li a:hover .fa-phone {
+    background-color: #7fd387;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#psychics .featured-posts .description .tags p {
+    color: #f2f2f5;
+    width: 80%;
+    margin: 20px auto 30px;
+}
+
+#psychics .featured-posts .description .tags a {
+    color: #f2f2f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+#psychics .featured-posts .description .free {
+    width: 184px;
+    background-color: #666699;
+    margin: 20px auto;
+    border-radius: 3px;
+    position: relative;
+    line-height: initial;
+    padding: 6px 0 6px 10px;
+    text-align: left;
+}
+
+#psychics .featured-posts .description .free-text {
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#psychics .featured-posts .description .fa {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ecc275;
+    background-color: #161729;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 17px 13px;
+}
+
+#psychics .featured-posts .description .fa:hover {
+    background-color: rgba(22, 23, 41, 0.5);
+}
+
+#browse-psychics {
+    width: 80%;
+    max-width: 410px;
+    display: block;
+    padding: 20px 0;
+    margin: 40px auto 50px;
+    background-color: #f2f2f5;
+    color: #444562;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    border: 1px solid #444562;
+}
+
+#browse-psychics:hover {
+    background-color: #e1e1e4;
+}
+
+#stories .section-posts {
+    text-align: center;
+}
+
+#stories .section-posts article {
+    width: 100%;
+    max-width: 386px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    margin: 20px auto;
+    -webkit-box-shadow: inset 0px -2px 0px 0px rgba(68, 69, 98, 1);
+    -moz-box-shadow: inset 0px -2px 0px 0px rgba(68, 69, 98, 1);
+    box-shadow: inset 0px -2px 0px 0px rgba(68, 69, 98, 1);
+}
+
+#stories .section-posts article .img-wrapper {
+    width: 100%;
+    height: 202px;
+    overflow: hidden;
+}
+
+#stories .section-posts article .img-wrapper img {
+    min-height: 202px;
+    width: auto;
+    max-width: initial;
+}
+
+#stories .section-posts article .post-content {
+    overflow: hidden;
+    padding: 20px 15px;
+}
+
+#stories .section-posts article .post-content h2 {
+    margin: 0;
+    line-height: initial;
+}
+
+#stories .section-posts article .post-content h2 a {
+    color: #333333;
+    font-family: 'Halant', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+#stories .section-posts article .post-content p {
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 20px 0;
+}
+
+#stories .section-posts article .post-content .post-date {
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.certificates ul {
+    padding: 0;
+    font-size: 0;
+    list-style-type: none;
+    text-align: center;
+    margin: 52px auto 34px;
+}
+
+.certificates ul li {
+    display: inline-block;
+
+}
+
+.certificates ul li a {
+    display: block;
+    background-image: url("../img/certif.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.certificates ul li a.norton {
+    width: 75px;
+    height: 46px;
+    background-position: -38px center;
+}
+
+.certificates ul li a.action {
+    width: 60px;
+    height: 55px;
+    background-position: -125px top;
+}
+
+.certificates ul li a.truste {
+
+    width: 86px;
+    height: 46px;
+    background-position: -204px center;
+}
+
+.site-footer {
+    background-color: #110817;
+    margin: 0 auto 150px;
+}
+
+.site-footer ul {
+    list-style-type: none;
+    font-size: 0;
+    padding: 0;
+}
+
+.site-footer ul#footer-menu li a {
+    color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.site-footer .footer-menu {
+    padding: 50px 0 40px;
+}
+
+.site-footer .footer-menu nav {
+    text-align: center;
+}
+
+.site-footer ul#footer-menu li a:hover {
+    text-decoration: underline;
+}
+
+.site-footer .social-icons {
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+.site-footer .social-icons li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.site-footer .social-icons li a {
+    color: #eabf6e;
+    font-size: 16px;
+}
+
+.site-footer .social-icons li a:hover {
+    color: #96784b;
+}
+
+.payments {
+    padding: 20px 0;
+    border-top: 1px solid #2e303e;
+}
+
+.payments ul {
+    text-align: center;
+}
+
+.payments ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.payments ul li a {
+    width: 32px;
+    height: 22px;
+    background-image: url("../img/payment.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.visa {
+    background-position: 0px center;
+
+}
+
+.mastercard {
+    background-position: -42px center;
+
+}
+
+.descover {
+    background-position: -84px center;
+
+}
+
+.amer-express {
+    background-position: -126px center;
+
+}
+
+.paypal {
+    background-position: -168px center;
+}
+.votes{
+    margin-top:10px;
+    font-size: 0;
+}
+.post-ratings img, .post-ratings-loading img, .post-ratings-image img{
+    width:14px;
+    height:14px;
+}
+
+@media all and (min-width: 480px) {
+    #hero .descr {
+        padding: 40px 0;
+    }
+}
+
+@media all and (min-width: 560px) {
+    #psychics .featured-posts {
+        margin: 20px 15px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #psychics .section-posts,
+    #trending .section-posts {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media all and (min-width: 768px) {
+    #hero .descr {
+        padding: 80px 0;
+        font-size: 43px;
+        line-height: 50px;
+    }
+
+    #psychics .featured-posts {
+        margin: 20px 8px;
+    }
+
+    #trending .section-title h2, #psychics .section-title h2, #stories .section-title h2 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    #trending .section-title p, #psychics .section-title p, #stories .section-title p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+}
+
+@media all and (min-width: 1024px) {
+    #masthead .site-logo {
+        float: left;
+    }
+
+    .main-navigation {
+        clear: both;
+        position: initial;
+    }
+
+    .header-wrapper {
+        float: right;
+        width: 60%;
+        overflow: hidden;
+    }
+
+    .searchform {
+        float: left;
+        width: 46%;
+        margin-top: 25px;
+    }
+
+    #masthead ul li,
+    #masthead ul li.joinas {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20px;
+    }
+
+    #masthead #primary-menu li {
+        margin: 0 15px;
+    }
+
+    #masthead #primary-menu li a:hover {
+        color: #444562;
+    }
+
+    .bottom-grid #search {
+        height: 56px;
+        border-radius: 3px;
+    }
+
+    .bottom-grid #search_submit {
+        font-size: 18px;
+        padding: 19px 5px;
+    }
+
+    .trending-posts {
+        margin: 20px 50px;
+    }
+
+    #psychics .featured-posts {
+        margin: 20px;
+    }
+
+    #stories .section-posts {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-footer .footer-menu {
+        overflow: hidden;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*.site-footer .footer-menu nav{*/
+    /*}*/
+    .site-footer .social-icons {
+        margin: 0;
+    }
+
+    .site-footer ul li {
+        display: inline-block;
+        margin: 0 6px;
+    }
+
+    .site-footer ul li:first-child {
+        margin-left: 0;
+    }
+
+    .payments .wrapper {
+        overflow: hidden;
+    }
+
+    .payments ul {
+        float: right;
+    }
+    .site-footer .footer-menu nav{
+        width:80%;
+        overflow: hidden;
+    }
+    .social-icons-wrapper{
+        width:20%;
+        overflow: hidden;
+    }
+    .social-icons-wrapper ul {
+        float: right;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    #search {
+        width: 90%;
+    }
+    .wrapper{
+        max-width: 1200px;
+        padding:0;
+    }
+    .header-wrapper {
+        width: 75%;
+    }
+
+    .searchform {
+        width: 48%;
+    }
+
+    #masthead ul li, #masthead ul li.joinas {
+        margin-left: 40px;
+    }
+
+    #masthead #primary-menu li {
+        margin: 0 40px;
+    }
+
+    .bottom-grid #search, .bottom-grid #search_submit {
+        width: 100%;
+    }
+
+    .trending-posts {
+        margin: 10px;
+    }
+    .trending-posts:first-of-type,#psychics .featured-posts:first-of-type {
+        margin-left: 0;
+    }
+
+    .trending-posts:last-of-type,#psychics .featured-posts:last-of-type {
+        margin-right: 0;
+    }
+    #psychics .featured-posts{
+        margin:9px;
+    }
+    #footer-menu li{
+        margin: 0 15px;
+    }
+}
